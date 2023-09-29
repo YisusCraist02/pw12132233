@@ -3,5 +3,39 @@ body{
     border: 1px solid red;
     margin: 0px auto;
     max-width: 1024px;
+}
 
+header{
+    background-color: #d1e3ee;
+}
+
+#seccion02{
+    margin-bottom: 50px;
+}
+
+#seccion02 article{
+    /*border: 1px solid blue;*/
+    display: inline-block;
+    vertical-align: top;
+    width: 33.0%;
+}
+
+#seccion02 article input [type="submit"]{
+    background-color: white;
+    border-radius: 5px;
+    color: blue;
+    padding: 12px;
+    margin-left: 125px;
+}
+
+.nito{
+    font-weight: bold; /*Negritas*/
+}
+
+.otraSeccion{
+    font-size: 2.5em; /*16px x 2.5*/
+}
+
+.unaSeccion{
+    font-size: 4.5em;  /*16px x 4.5*/
 }
